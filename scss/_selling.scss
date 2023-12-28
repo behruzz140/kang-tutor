@@ -1,0 +1,81 @@
+.selling-mt {
+  margin-top: 80px;
+}
+
+.product-btn {
+  border: none;
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  color: var(--Text, #fafafa);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.dollarcha-style {
+  display: flex;
+  gap: 18px;
+}
+
+.dollar-260 {
+  color: #db4444;
+}
+
+.dollar-360 {
+  color: grey;
+}
+
+.north-style {
+  margin-top: 8px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.star {
+  display: flex;
+  align-items: flex-start;
+}
+
+.star-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.star-p {
+  color: grey;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.this-month {
+  margin-top: 60px;
+}
+
+.duffle-bag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-btn:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  background:  rgb(3, 184, 76);
+  color: white;
+  transition: all 0.7s ease;
+}

@@ -1,0 +1,40 @@
+.log-in-btn {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  border: none;
+  color: #fff;
+}
+
+.log-in-btn:hover {
+  background: var(--Button1, rgb(3, 184, 76));
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.for-password {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 55px;
+}
+
+.for-password > p {
+  color: var(--Secondary-2, #db4444);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.for-password > p:hover{
+    cursor: pointer;
+    color: rgb(3, 184, 76);
+    transition: all 0.7s ease;
+}

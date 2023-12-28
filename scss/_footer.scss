@@ -1,14 +1,100 @@
-footer {
-    height: 48px;
-    background: #02A28F;
+.footer-section {
+  background: var(--Button, #000);
+}
 
-    p {
-        padding-top: 17px;
-        text-align: center;
-        color: #FFF;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
+.fut-mail {
+  display: flex;
+  width: 217px;
+  padding: 12px 0px 12px 16px;
+  align-items: center;
+  gap: 32px;
+  border-radius: 4px;
+  border: 1.5px solid var(--Text, #dfdede);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  opacity: 3;
+  color: #fff;
+  background-color: #000000;
+}
+
+.email-foot {
+  position: relative;
+  margin-top: 16px;
+}
+
+.send-foto {
+  position: absolute;
+  top: 28%;
+  right: 10%;
+}
+
+.footer-h2 {
+  padding-top: 50px;
+  color: var(--Text, #fafafa);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+
+.footer-h3 {
+  margin-top: 24px;
+  color: var(--Text, #fafafa);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.footer-p {
+  color: var(--Text, #fafafa);
+  margin-top: 24px;
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.main-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.qrcode-link {
+    margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.qr-link {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-left: 8px;
+}
+
+
+.facebook-icons{
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.facebook-icons > i{
+    color: white;
+}
+
+.facebook-icons > i:hover{
+    color: rgb(137, 137, 137);
+    cursor: pointer;
 }

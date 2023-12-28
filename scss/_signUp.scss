@@ -1,0 +1,269 @@
+.left-phone {
+  margin-top: 60px;
+}
+
+.blue-foto {
+  display: flex;
+  padding-top: 75px;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 0px 4px 4px 0px;
+  background: #cbe4e8;
+  margin-left: -15%;
+}
+
+.create-account {
+  display: flex;
+}
+
+.account-details {
+  margin-top: 12%;
+}
+
+.detail-h2 {
+  color: var(--Text2, #000);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+}
+
+.detail-p {
+  margin-top: 24px;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.margin-topp {
+  text-align: center;
+}
+.account-p {
+  font-weight: normal;
+  color: #888;
+  display: block;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  color: #53b2c8;
+}
+
+/* form starting stylings ------------------------------- */
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.signUp-btn {
+  display: flex;
+  padding: 16px 122px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  color: #fff;
+  border: none;
+} 
+
+.signUp-btn:hover {
+  border-radius: 4px;
+  background: var(--Button1, rgb(3, 184, 76));
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.input-style {
+  margin-top: 48px;
+}
+
+.margin-topp {
+  display: inline-block;
+  margin-top: 40%;
+}
+
+.icon-google-p {
+  margin-left: 2%;
+}
+
+.main-google {
+  padding: 16px 86px;
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.google_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-google {
+  margin-top: 3%;
+}
+
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.likee-heartt {
+  border-radius: 50%;
+}
+
+.dropdown-item {
+  margin-left: 2px;
+}
+
+.dropdown-span {
+  margin-left: 10px;
+}
+
+.already_have-acc{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  color: var(--Text2, #000);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+gap: 16px;
+}
+
+.already_have-acc > a{
+  color: var(--Text2, #000);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+text-decoration: none;
+}
+
+.already_have-acc >a:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #000;
+  transition: all 0.7s ease;
+}

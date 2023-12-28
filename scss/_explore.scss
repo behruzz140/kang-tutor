@@ -1,0 +1,124 @@
+.explore-mt {
+  margin-top: 71px;
+}
+
+.north-coat {
+  width: 250px;
+  height: 270px;
+  position: relative;
+}
+.style__list-n {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.links {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.links div {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  margin-top: 10px;
+}
+.links div i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.links div:hover {
+  background: #010101;
+  transition: 0.3s ease-in;
+}
+
+.links div i:hover {
+  color: #fff;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 55px;
+  height: 26px;
+  background: #db4444;
+}
+.badge span {
+  font-size: 12px;
+  text-align: center;
+}
+
+.card_btn {
+  position: absolute;
+  bottom: 0;
+  width: 270px;
+  height: 41px;
+  border-radius: 0px 0px 4px 4px;
+  background: #000;
+  color: #fff;
+  padding-top: 8px;
+  display: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card_btn p {
+  text-align: center;
+}
+
+.north-coat:hover {
+  .card_btn {
+    display: block;
+  }
+}
+
+.speaker__style-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.speaker__style-card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.this__month-btn {
+  margin-top: 60px;
+  border: none;
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  color: var(--Text, #fafafa);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.this__month-btn:hover{
+  cursor: pointer;
+  background: var(--Button1, rgb(3, 184, 76));
+  transition: all 0.7s ease;
+}
+

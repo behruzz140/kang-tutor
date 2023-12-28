@@ -1,0 +1,161 @@
+.account-92 {
+  margin-top: 8%;
+}
+
+.gamepad-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-right: 30px;
+}
+
+.gamepad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.four-star-line {
+  width: 2px;
+  height: 16px;
+  opacity: 0.5;
+  background: #000;
+}
+.four-star {
+  display: flex;
+  align-items: center;
+}
+
+.four-star > p {
+  margin-left: 8px;
+  color: var(--Text2, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.in-stock {
+  color: var(--Button1, #0f6);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.dollar-192 {
+  color: var(--Text2, #000);
+  margin-top: 17px;
+  /* Heading/24PX Regular */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.72px;
+}
+
+.matn-pad {
+  width: 373px;
+  color: #000;
+  margin-top: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.line-pad {
+  width: 400px;
+  height: 1px;
+  background: #000;
+}
+
+.colour-and-img {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.colour-pad {
+  margin-right: 16px;
+}
+
+.s-ml-pad {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 6px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.razmer-pad {
+  display: flex;
+  gap: 16px;
+}
+
+.size-xl {
+  display: flex;
+}
+
+.s-ml-pad:hover {
+  cursor: pointer;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 6px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--Secondary-2, #db4444);
+  color: var(--Text, #fafafa);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  border: none;
+  transition: all 0.7s ease;
+}
+
+
+.type_input-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+// border: 1px solid rgba(0, 0, 0, 0.50);
+display: inline-blockS;
+// background: var(--Secondary-2, #DB4444);
+}
+
+.type_input-btn button{
+  width: 40px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: #fff;
+  transition: all .2s ease-in-out;
+}
+
+.type_input-btn button:hover{
+  background: #DB4444;
+  color: #fff;
+}
+
+.type_input-btn input{
+  width: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+}
